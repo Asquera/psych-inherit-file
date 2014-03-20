@@ -1,4 +1,4 @@
-# Psych::Inherit::File [![Build Status](https://travis-ci.org/Asquera/psych-require-file.svg?branch=master)](https://travis-ci.org/Asquera/psych-require-file)
+# Psych::Inherit::File [![Build Status](https://travis-ci.org/Asquera/psych-inherit-file.svg?branch=master)](https://travis-ci.org/Asquera/psych-inherit-file)
 
 A psych handler and parser that allows inherit other files within YAML files.
 
@@ -8,7 +8,7 @@ It is an extraction from [elasticsearch-rake-tasks](http://github.com/asquera/el
 
 Add this line to your application's Gemfile:
 
-    gem 'psych-require-file'
+    gem 'psych-inherit-file'
 
 And then execute:
 
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install psych-require-file
+    $ gem install psych-inherit-file
 
 ## Usage
 
@@ -49,6 +49,7 @@ This allows you to share definitions between files. The "inherit" node will be r
 
 * [Sebastian Ziebell](http://github.com/zebel) (original implementation)
 * [Florian Gilcher](http://github.com/skade) (extraction)
+* [Nico Hagenburger](http://github.com/hagenburger) (quality control)
 
 ## Contributing
 
