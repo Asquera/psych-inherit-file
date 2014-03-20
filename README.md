@@ -4,6 +4,8 @@ A psych handler and parser that allows inherit other files within YAML files.
 
 It is an extraction from [elasticsearch-rake-tasks](http://github.com/asquera/elasticsearch-rake-tasks).
 
+Supports JRubys Psych implementation.
+
 ## Installation
 
 Add this line to your application's Gemfile:
