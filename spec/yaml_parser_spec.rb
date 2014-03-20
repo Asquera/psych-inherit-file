@@ -3,8 +3,8 @@ require 'spec_helper'
 describe Psych::Inherit::File::Parser do
   let(:parser){ described_class.new }
 
-  def mapping_folder(template)
-    "#{examples_root}/#{template}/mappings"
+  def example_folder(example)
+    "#{examples_root}/#{example}"
   end
 
   describe "#parse_yaml_content" do
@@ -63,7 +63,7 @@ describe Psych::Inherit::File::Parser do
     end
 
     context "missing file" do
-      let(:dir){ mapping_folder("simple") }
+      let(:dir){ example_folder("simple") }
       let(:yaml){ "#{dir}/unknow.yml" }
 
       it "raises an error" do
@@ -72,7 +72,7 @@ describe Psych::Inherit::File::Parser do
     end
 
     context "simple template" do
-      let(:dir){ mapping_folder("simple") }
+      let(:dir){ example_folder("simple") }
       let(:yaml){ "#{dir}/foo.yml" }
 
       it "does not raise error" do
@@ -90,7 +90,7 @@ describe Psych::Inherit::File::Parser do
     end
 
     context "template with file include" do
-      let(:dir){ mapping_folder("simple") }
+      let(:dir){ example_folder("simple") }
       let(:yaml){ "#{dir}/bar.yml" }
 
       it "does not raise error" do
@@ -114,7 +114,7 @@ describe Psych::Inherit::File::Parser do
     end
 
     context "template with external alias" do
-      let(:dir){ mapping_folder("include") }
+      let(:dir){ example_folder("include") }
       let(:yaml){ "#{dir}/alias.yml" }
 
       it "does not raise error" do
