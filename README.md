@@ -49,7 +49,7 @@ This allows you to share definitions between files. The "inherit" node will be r
 
 ## Contributors
 
-* [Sebastian Ziebell](http://github.com/zebel) (original implementation)
+* [Sebastian Ziebell](http://github.com/justahero) (original implementation)
 * [Florian Gilcher](http://github.com/skade) (extraction)
 * [Nico Hagenburger](http://github.com/hagenburger) (quality control)
 
