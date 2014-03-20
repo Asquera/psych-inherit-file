@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{A handler for Psych that allows you to inhert other YAML files,
 for example to share certain repetitive definitions.}
   spec.summary       = %q{A handler for Psych allowing you to inherit other files.}
-  spec.homepage      = "http://github.com/Asquera/psych-inherit-file"
+  spec.homepage      = "https://github.com/Asquera/psych-require-file"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
