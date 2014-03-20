@@ -1,4 +1,4 @@
-# Psych::Inherit::File
+# Psych::Inherit::File [![Build Status](https://travis-ci.org/Asquera/psych-require-file.svg?branch=master)](https://travis-ci.org/Asquera/psych-require-file)
 
 A psych handler and parser that allows inherit other files within YAML files.
 
